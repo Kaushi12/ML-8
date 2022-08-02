@@ -1,0 +1,18 @@
+1) Features are the basic building blocks of datasets. The quality of the features in your dataset has a major impact on the quality of the insights you will gain when you use that dataset for machine learning.You can improve the quality of your dataset’s features with processes like feature selection and feature engineering, which are notoriously difficult and tedious.In datasets, features appear as columns:
+
+In datasets, features appear as columns:
+
+PassegerId,Survived,Pclass,Name etc
+
+2) The process of generating new variables (features) based on already existing variables is known as feature construction.
+
+Feature Construction is a useful process as it can add more information and give more insights of the data we are dealing with.
+
+Feature Construction is done by transforming the numerical features into categorical features which is done while performing Binning.
+
+Also, feature construction is done by decomposing variables so that these new variables can be used in various machine learning algorithms such as the creation of Dummy Variables by performing Encoding.
+
+Other ways of constructing include deriving features from the pre-existing features and coming up with more meaningful features.
+
+3) When we have a feature where variables are just names and there is no order or rank to this variable's feature. For example: City of person lives in, Gender of person, Marital Status, etc
+
